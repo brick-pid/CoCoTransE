@@ -1,0 +1,9 @@
+src: python
+tgt: julia
+
+# model_name_or_path: Salesforce/codet5p-770m
+model_name_or_path: /home/sjw/ljb/nanoT5/logs/2024-05-13/07-00-29-/results/pt-codet5p-770m-20701-lr0.002-bs48-julia  # 100epoch function ept
+
+sample_size: 2200
+nl: True
+patch: False

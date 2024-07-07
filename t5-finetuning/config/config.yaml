@@ -1,0 +1,14 @@
+defaults:
+  - _self_
+  - data: cangjie
+
+
+debug: False
+aug: False
+
+optim:
+  lr: 5e-5
+  lr_scheduler_type: cosine
+  warmup_ratio: 0.05
+  grad_accu: 32
+  per_device_train_batch_size: 1

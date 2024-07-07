@@ -1,0 +1,10 @@
+src: python
+tgt: ocaml
+
+# model_name_or_path: Salesforce/codet5p-770m
+model_name_or_path: /home/sjw/ljb/nanoT5/logs/2024-05-12/04-02-09-/results/pt-codet5p-770m-22501-lr0.002-bs48-ocaml # 100epoch ocaml
+
+sample_size: 2200
+
+nl: True
+patch: False

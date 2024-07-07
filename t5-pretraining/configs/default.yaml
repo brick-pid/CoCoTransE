@@ -1,0 +1,74 @@
+defaults:
+  - _self_
+  - task: pt
+  - data: cj_function
+  - local_env: default
+
+# Experiment args
+mode: 'pt'
+device: gpu
+precision: 'bf16'
+eval_only: false
+predict_only: false
+seed: 42
+# utils/model_utils.py/get_model
+model:
+  klass: hf_t5  # T5 model class, in [hf_t5, local_t5]
+  name: google/t5-v1_1-base  # HF model name, used when checkpoint_path and random_init are empty
+  overwrite:
+    dropout_rate: 0.0
+  add_config:
+    is_bf16: false
+  checkpoint_path: ''  # Path to the checkpoint, if not empty, the model will be loaded from the checkpoint
+  random_init: false  # If true, the model will be randomly initialized
+  compile: false # Pytorch 2.0
+
+data:
+  input_length: 512
+  mlm_probability: 0.15
+  mean_noise_span_length: 3.0
+  num_workers: 8
+  pl: cj # cj, ocaml, julia, racket, r, lua
+  data_type: function # file, function
+  mix_ratio: 13
+  kw_file: '/home/sjw/ljb/nanoT5/nanoT5/utils/keywords.txt'
+
+objective:
+  # 和训练目标有关的配置
+  span_masking_type: random_masking # random_masking, kw_masking
+
+
+optim:
+  name: adamwscale
+  base_lr: 2e-2
+  batch_size: 16
+  total_steps: 65536
+  epochs: 100 # If it's > 0 it overwrites total_steps
+  warmup_steps: 10000
+  lr_scheduler: cosine
+  weight_decay: 0.0
+  grad_clip: 1.0
+  grad_acc: 1
+  final_cosine: 1e-5
+
+eval:
+  every_steps: 100000 # Eval once in the end
+  steps: 500
+
+checkpoint:
+  every_steps: 100000 # Save checkpoint once in the end
+
+logging:
+  neptune: false
+  neptune_creds:
+    project:
+    api_token:
+    tags: ''
+  every_steps: 100
+  grad_l2: true
+  weights_l2: true
+  wandb: true
+
+hydra:
+  job:
+    chdir: True

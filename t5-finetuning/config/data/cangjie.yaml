@@ -1,0 +1,14 @@
+src: java
+tgt: cangjie
+
+# model_name_or_path: /home/sjw/ljb/nanoT5/logs/2024-04-15/09-30-01-/results/pt-codet5p-770m-18651-lr0.002-bs48 # cj_mono_pt
+# model_name_or_path: /home/sjw/ljb/nanoT5/logs/2024-04-27/03-39-12-/results/pt-codet5p-770m-2011-lr0.002-bs48 # cj_func_10epoch cpt
+model_name_or_path: /home/sjw/ljb/nanoT5/logs/2024-04-27/07-51-32-/results/pt-codet5p-770m-20101-lr0.002-bs48  # cj_func_100epoch cpt
+# model_name_or_path: /home/sjw/ljb/nanoT5/logs/2024-04-28/16-35-04-/results/pt-codet5p-770m-2011-lr0.002-bs48-cj_50-cj_func  #cj_mono_50epoch cpt + cj_func 10 cpt
+# model_name_or_path: /home/sjw/ljb/nanoT5/logs/2024-05-01/00-11-19-/results/pt-codet5p-770m-10051-lr0.002-bs48  #cj_func_50epoch cpt
+# model_name_or_path: Salesforce/codet5p-770m
+
+nl: True
+patch: True
+
+sample_size: 2200

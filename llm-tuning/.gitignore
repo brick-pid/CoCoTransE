@@ -1,0 +1,14 @@
+*.pytest_cache
+*__pycache__
+*test*
+*multipl_parallel
+*wandb
+*output*
+*logs
+*.out
+wandb/
+.pytest*
+*jsonl
+.vscode
+inference/bleu
+inference/results
