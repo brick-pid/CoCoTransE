@@ -18,12 +18,14 @@ We evaluate translation results using the [BLEU](https://aclanthology.org/P02-10
 ### How to run?
 1. Open the `bash-test/call_bash.ipynb` file;
 2. Change the model_id to the model translation result you want to evaluate. For example, you can use the demo result `starcoder2-3b_cangjie_it_2200_lr1e-05_ebs32` provided for easy testing.
-3. run the notebook.
+3. Run the notebook for the specified model translation result;
+4. In the `bash-test/call_bash.ipynb` notebook, you can see the evaluation results of the given demo result.
 
 ### Notice
-the model translation result should be a jsonl file with the following format:
-```jsonl
-{"src": "...", "pred": "..."}
-{"src": "...", "pred": "..."}
-{"src": "...", "pred": "..."}
-```
+1. the model translation result should be a jsonl file with the following format:
+    ```jsonl
+    {"src": "...", "pred": "..."}
+    {"src": "...", "pred": "..."}
+    {"src": "...", "pred": "..."}
+    ```
+2. We also privide a [detailed handbook](https://m0k9pobp4ss.feishu.cn/docx/ZGuZd13Yio926axldEccDU9InKe) in Chinese on using the evaluation script in the `bash-test` folder.
