@@ -1,0 +1,10 @@
+/**
+ * You are given a non-empty list of positive integers. This function returns
+ * the greatest integer that is greater than zero, and has a frequency greater
+ * than or equal to the value of the integer itself. The frequency of an integer
+ * is the number of times it appears in the list. If no such value exists,
+ * it returns -1.
+ *
+ * @param lst The list of positive integers.
+ * @return The greatest integer that satisfies the conditions, or -1 if none exists.
+ */

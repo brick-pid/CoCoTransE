@@ -1,0 +1,6 @@
+/**
+ * Counts the number of even and odd digits in the given integer.
+ * 
+ * @param num The input integer.
+ * @return A list containing the count of even digits (at index 0) and odd digits (at index 1).
+ */

@@ -1,0 +1,6 @@
+/**
+ * For a given string, flip lowercase characters to uppercase and uppercase to lowercase.
+ *
+ * @param string The input string.
+ * @return The string with flipped case characters.
+ */

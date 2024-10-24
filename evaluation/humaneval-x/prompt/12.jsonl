@@ -1,0 +1,8 @@
+/**
+ * Out of a list of strings, return the longest one.
+ * Return the first one in case of multiple strings of the same length.
+ * Return None in case the input list is empty.
+ *
+ * @param strings The list of strings.
+ * @return The optional containing the longest string, or empty if the input list is empty.
+ */

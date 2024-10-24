@@ -1,0 +1,9 @@
+/**
+ * Create a function that takes 3 numbers. Returns true if one of the numbers is equal to the sum of the other two,
+ * and all numbers are integers. Returns false in any other cases.
+ * 
+ * @param x The first number.
+ * @param y The second number.
+ * @param z The third number.
+ * @return true if one number is equal to the sum of the other two and all numbers are integers, false otherwise.
+ */

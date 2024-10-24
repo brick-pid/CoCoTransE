@@ -1,0 +1,8 @@
+/**
+ * Input to this function is a string represented multiple groups of nested parentheses separated by spaces.
+ * For each of the group, output the deepest level of nesting of parentheses.
+ * E.g. (()()) has a maximum of two levels of nesting while ((())) has three.
+ *
+ * @param paren_string The string containing multiple groups of nested parentheses separated by spaces.
+ * @return The list of the deepest level of nesting for each group of parentheses.
+ */

@@ -1,0 +1,9 @@
+/**
+ * Given the lengths of the three sides of a triangle, this function calculates the area of the triangle
+ * rounded to 2 decimal points if the three sides form a valid triangle. Otherwise, it returns -1.
+ *
+ * @param a The length of the first side.
+ * @param b The length of the second side.
+ * @param c The length of the third side.
+ * @return The area of the triangle if it's valid, otherwise -1.
+ */

@@ -1,0 +1,7 @@
+/**
+ * Filter an input list of strings only for ones that start with a given prefix.
+ *
+ * @param strings The list of strings to filter.
+ * @param prefix  The prefix to search for at the start of strings.
+ * @return The filtered list of strings starting with the given prefix.
+ */

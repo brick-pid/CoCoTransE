@@ -1,0 +1,8 @@
+/**
+ * Return a list of prime factors of the given integer in the order from smallest to largest.
+ * Each of the factors should be listed the number of times corresponding to how many times it appears in factorization.
+ * Input number should be equal to the product of all factors.
+ *
+ * @param n The input integer to factorize.
+ * @return The list of prime factors of the input integer.
+ */

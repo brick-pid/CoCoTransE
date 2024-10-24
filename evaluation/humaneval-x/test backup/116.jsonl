@@ -1,0 +1,15 @@
+main() {
+    let correct = ArrayList<Bool>(
+            sortArray(ArrayList<Int32>(1, 5, 2, 3, 4)) == ArrayList<Int32>(1, 2, 4, 3, 5),
+            sortArray(ArrayList<Int32>(-2, -3, -4, -5, -6)) == ArrayList<Int32>(-4, -2, -6, -5, -3),
+            sortArray(ArrayList<Int32>(1, 0, 2, 3, 4)) == ArrayList<Int32>(0, 1, 2, 4, 3),
+            sortArray(ArrayList<Int32>()) == ArrayList<Int32>(),
+            sortArray(ArrayList<Int32>(2, 5, 77, 4, 5, 3, 5, 7, 2, 3, 4)) == ArrayList<Int32>(2, 2, 4, 4, 3, 3, 5, 5, 5, 7, 77),
+            sortArray(ArrayList<Int32>(3, 6, 44, 12, 32, 5)) == ArrayList<Int32>(32, 3, 5, 6, 12, 44),
+            sortArray(ArrayList<Int32>(2, 4, 8, 16, 32)) == ArrayList<Int32>(2, 4, 8, 16, 32),
+            sortArray(ArrayList<Int32>(2, 4, 8, 16, 32)) == ArrayList<Int32>(2, 4, 8, 16, 32)
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

@@ -1,0 +1,6 @@
+/**
+ * Given a string, find out how many distinct characters (regardless of case) it consists of.
+ *
+ * @param string The input string.
+ * @return The number of distinct characters in the string.
+ */

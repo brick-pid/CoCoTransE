@@ -1,0 +1,20 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            selectWords("Mary had a little lamb", 4)==ArrayList<String>("little" ),
+            selectWords("Mary had a little lamb", 3)==ArrayList<String>("Mary", "lamb"),
+            selectWords("simple white space", 2)==ArrayList<String>(),
+            selectWords("Hello world", 4)==ArrayList<String>("world" ),
+            selectWords("Uncle sam", 3)==ArrayList<String>("Uncle" ),
+            selectWords("", 4)==ArrayList<String>(),
+            selectWords("a b c d e f", 1)==ArrayList<String>("b", "c", "d", "f")
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

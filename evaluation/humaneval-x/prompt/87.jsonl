@@ -1,0 +1,11 @@
+/**
+ * Given a 2-dimensional data represented as nested lists, where each row may contain a different
+ * number of columns, find the integer x in the list and return a list of lists representing
+ * coordinates [[x1, y1], [x2, y2], ...] such that each list is a coordinate - (row, columns),
+ * starting with 0. Coordinates are sorted initially by rows in ascending order and by columns in
+ * descending order.
+ * 
+ * @param lst The 2-dimensional data represented as nested lists.
+ * @param x The integer to find in the list.
+ * @return A list of lists representing coordinates.
+ */

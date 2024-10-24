@@ -1,0 +1,8 @@
+/**
+ * Circular shift the digits of the integer x, shift the digits right by shift
+ * and return the result as a string. If shift > number of digits, return digits reversed.
+ *
+ * @param x The input integer.
+ * @param shift The number of positions to shift the digits.
+ * @return The circular shifted digits as a string.
+ */

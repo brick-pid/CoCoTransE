@@ -1,0 +1,6 @@
+/**
+ * Given a string s, count the number of uppercase vowels in even indices.
+ * 
+ * @param s The input string.
+ * @return The count of uppercase vowels in even indices of the string.
+ */

@@ -1,0 +1,7 @@
+/**
+ * Sorts an array of non-negative integers according to the number of ones in their binary representation
+ * in ascending order. For integers with the same number of ones, sorts based on decimal value.
+ * 
+ * @param arr The list of non-negative integers to be sorted.
+ * @return The sorted list of integers based on the specified criteria.
+ */

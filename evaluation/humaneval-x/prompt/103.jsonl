@@ -1,0 +1,10 @@
+/**
+ * You are given two positive integers n and m, and your task is to compute the average
+ * of the integers from n through m (including n and m). Round the answer to the nearest integer
+ * and convert that to binary. If n is greater than m, return -1.
+ * 
+ * @param n The lower bound of the range.
+ * @param m The upper bound of the range.
+ * @return The rounded average of integers from n through m in binary form,
+ *         or -1 if n is greater than m.
+ */

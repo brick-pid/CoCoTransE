@@ -1,0 +1,9 @@
+/**
+ * Determines whether the product of two fractions x * n evaluates to a whole number.
+ * Both x and n are string representations of fractions in the format <numerator>/<denominator>,
+ * where both numerator and denominator are positive whole numbers.
+ * 
+ * @param x The first fraction as a string (<numerator>/<denominator>).
+ * @param n The second fraction as a string (<numerator>/<denominator>).
+ * @return true if the product x * n evaluates to a whole number; otherwise, false.
+ */

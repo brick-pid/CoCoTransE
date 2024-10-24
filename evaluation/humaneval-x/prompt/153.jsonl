@@ -1,0 +1,10 @@
+/**
+ * Finds the strongest extension from a list of extensions based on their strength,
+ * where the strength is given by the fraction (number of uppercase letters - number of lowercase letters).
+ * Returns a string in the format ClassName.StrongestExtensionName.
+ * If there are ties in strength, chooses the extension that appears first in the list.
+ * 
+ * @param class_name The name of the class as a string.
+ * @param extensions The list of extensions to evaluate.
+ * @return A string in the format ClassName.StrongestExtensionName representing the strongest extension.
+ */

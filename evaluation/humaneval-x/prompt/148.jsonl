@@ -1,0 +1,9 @@
+/**
+ * Returns a list of planets whose orbits are located between the orbits of two given planets.
+ * The list is sorted by proximity to the sun.
+ * Returns an empty list if either of the given planet names is incorrect.
+ * 
+ * @param planet1 The name of the first planet.
+ * @param planet2 The name of the second planet.
+ * @return A list containing planets located between the orbits of planet1 and planet2, sorted by proximity to the sun.
+ */

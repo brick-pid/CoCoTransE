@@ -1,0 +1,12 @@
+main() {
+    let correct = ArrayList<Bool>(
+            parseMusic("") == (ArrayList<Int32>()),
+            parseMusic("o o o o") == (ArrayList<Int32>(4, 4, 4, 4)),
+            parseMusic(".| .| .| .|") == (ArrayList<Int32>(1, 1, 1, 1)),
+            parseMusic("o| o| .| .| o o o o") == (ArrayList<Int32>(2, 2, 1, 1, 4, 4, 4, 4)),
+            parseMusic("o| .| o| .| o o| o o|") == (ArrayList<Int32>(2, 1, 2, 1, 4, 2, 4, 2))
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

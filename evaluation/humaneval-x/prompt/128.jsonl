@@ -1,0 +1,7 @@
+/**
+ * Computes the sum of magnitudes of integers multiplied by the product of all signs 
+ * (represented by 1, -1, or 0) of each number in the array.
+ * 
+ * @param arr The array of integers.
+ * @return The result as an Optional<Integer>. Returns None if the array is empty.
+ */

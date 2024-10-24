@@ -1,0 +1,6 @@
+/**
+ * Given a list of positive integers x, return a sorted list of all elements that do not contain any even digit.
+ * 
+ * @param x The list of positive integers.
+ * @return A sorted list of integers from the input list that do not contain any even digit.
+ */

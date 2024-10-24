@@ -1,0 +1,6 @@
+/**
+ * removeVowels is a function that takes a string and returns a string without vowels.
+ *
+ * @param text The input string.
+ * @return The string without vowels.
+ */

@@ -1,0 +1,6 @@
+/**
+ * Given a non-empty list of integers, adds the even elements that are at odd indices.
+ * 
+ * @param lst The non-empty list of integers.
+ * @return The sum of even elements at odd indices.
+ */

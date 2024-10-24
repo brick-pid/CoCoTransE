@@ -1,0 +1,7 @@
+/**
+ * From a supplied list of numbers (of length at least two), select and return two that are the closest to each other
+ * and return them in order (smaller number, larger number).
+ *
+ * @param numbers The list of numbers.
+ * @return The two numbers that are closest to each other.
+ */

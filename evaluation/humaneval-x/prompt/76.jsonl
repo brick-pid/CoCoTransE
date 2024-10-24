@@ -1,0 +1,8 @@
+/**
+ * Your task is to write a function that returns true if a number x is a simple power of n and false otherwise.
+ * x is a simple power of n if n^int = x.
+ *
+ * @param x The number to check.
+ * @param n The base.
+ * @return True if x is a simple power of n, false otherwise.
+ */

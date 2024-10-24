@@ -1,0 +1,8 @@
+/**
+ * Computes the MD5 hash of the input string "text".
+ * If the input string is empty, returns Optional.empty().
+ * 
+ * @param text The input string to compute the MD5 hash for.
+ * @return An optional containing the MD5 hash string (length 32) of the input string,
+ *         or Optional.empty() if the input string is empty.
+ */

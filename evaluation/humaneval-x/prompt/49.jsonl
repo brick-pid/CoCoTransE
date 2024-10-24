@@ -1,0 +1,7 @@
+/**
+ * Return 2^n modulo p (be aware of numerics).
+ *
+ * @param n The exponent.
+ * @param p The modulo base.
+ * @return The result of 2^n modulo p.
+ */

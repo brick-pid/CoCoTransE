@@ -1,0 +1,11 @@
+main() {
+    let correct = ArrayList<Bool>(
+            rollingMax(ArrayList<Int32>()) == (rrayList<Int32>()),
+            rollingMax(ArrayList<Int32>(1, 2, 3, 4)) == (ArrayList<Int32>(1, 2, 3, 4)),
+            rollingMax(ArrayList<Int32>(4, 3, 2, 1)) == (ArrayList<Int32>(4, 4, 4, 4)),
+            rollingMax(ArrayList<Int32>(3, 2, 3, 100, 3)) == (ArrayList<Int32>(3, 3, 3, 100, 100))
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

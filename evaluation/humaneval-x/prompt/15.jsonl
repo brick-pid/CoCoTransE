@@ -1,0 +1,6 @@
+/**
+ * Return a string containing space-delimited numbers starting from 0 up to n inclusive.
+ *
+ * @param n The upper limit for the sequence.
+ * @return The string containing space-delimited numbers from 0 to n.
+ */

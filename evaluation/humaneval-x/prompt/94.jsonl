@@ -1,0 +1,6 @@
+/**
+ * You are given a list of integers. Find the largest prime value in the list and return the sum of its digits.
+ * 
+ * @param lst The list of integers.
+ * @return The sum of the digits of the largest prime value in the list.
+ */

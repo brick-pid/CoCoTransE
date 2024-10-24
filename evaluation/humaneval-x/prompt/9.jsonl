@@ -1,0 +1,6 @@
+/**
+ * From a given list of integers, generate a list of rolling maximum element found until the given moment in the sequence.
+ *
+ * @param numbers The list of integers.
+ * @return The list of rolling maximum elements found until the given moment in the sequence.
+ */

@@ -1,0 +1,7 @@
+/**
+ * Given a positive integer n, return a tuple that contains the count of even and odd integer palindromes
+ * that fall within the range [1, n], inclusive.
+ * 
+ * @param n The upper limit of the range to check for palindromes.
+ * @return A list containing two integers: the count of even integer palindromes and the count of odd integer palindromes.
+ */

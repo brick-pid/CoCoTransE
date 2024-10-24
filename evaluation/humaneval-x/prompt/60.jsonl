@@ -1,0 +1,6 @@
+/**
+ * sumToN is a function that sums numbers from 1 to n.
+ *
+ * @param n The upper limit of the numbers to be summed.
+ * @return The sum of numbers from 1 to n.
+ */

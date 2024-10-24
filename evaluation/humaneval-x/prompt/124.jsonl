@@ -1,0 +1,15 @@
+/**
+ * Validates a given date string based on specific rules.
+ * 
+ * The date is considered valid if:
+ * 1. The date string is not empty.
+ * 2. The format is "mm-dd-yyyy".
+ * 3. The month is between 1 and 12 inclusive.
+ * 4. The day is valid based on the month:
+ *    - Months with 31 days: 1, 3, 5, 7, 8, 10, 12.
+ *    - Months with 30 days: 4, 6, 9, 11.
+ *    - February (month 2) has 28 or 29 days based on leap year (not validated here).
+ * 
+ * @param date The date string to validate.
+ * @return true if the date is valid, otherwise false.
+ */

@@ -1,0 +1,14 @@
+/**
+ * Evaluates a polynomial with coefficients xs at point x.
+ *
+ * @param xs The list of coefficients of the polynomial.
+ * @param x  The point at which to evaluate the polynomial.
+ * @return The result of evaluating the polynomial at point x.
+ */
+ public double poly(List<Double> xs, double x) {
+    double result = 0;
+    for (int i = 0; i < xs.size(); i++) {
+        result += xs.get(i) * Math.pow(x, i);
+    }
+    return result;
+}

@@ -1,0 +1,6 @@
+/**
+* Converts a list of GPAs to letter grades.
+* 
+* @param grades The list of GPAs.
+* @return The list of corresponding letter grades.
+*/

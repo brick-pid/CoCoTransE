@@ -1,0 +1,7 @@
+/**
+ * You will be given a string of words separated by commas or spaces.
+ * Split the string into words and return a list of the words.
+ * 
+ * @param s The input string containing words separated by commas or spaces.
+ * @return A list of words extracted from the input string.
+ */

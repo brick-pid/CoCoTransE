@@ -1,0 +1,6 @@
+/**
+ * For a given number n, find the largest number that divides n evenly, smaller than n.
+ *
+ * @param n The input number.
+ * @return The largest divisor of n that is smaller than n itself.
+ */

@@ -1,0 +1,7 @@
+/**
+ * Insert a number 'delimiter' between every two consecutive elements of the input list `numbers'.
+ *
+ * @param numbers   The list of integers.
+ * @param delimiter The number to be inserted between elements.
+ * @return The list with the delimiter inserted between consecutive elements.
+ */

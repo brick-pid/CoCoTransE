@@ -1,0 +1,7 @@
+/**
+ * Check if in given list of numbers, any two numbers are closer to each other than the given threshold.
+ *
+ * @param numbers   The collection of doubles.
+ * @param threshold The threshold value for closeness comparison.
+ * @return True if any two numbers are closer than the threshold, false otherwise.
+ */

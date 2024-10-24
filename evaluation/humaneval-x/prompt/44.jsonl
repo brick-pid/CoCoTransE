@@ -1,0 +1,8 @@
+/**
+ * Change numerical base of input number x to base. Return string representation after the conversion.
+ * Base numbers are less than 10.
+ *
+ * @param x    The input number.
+ * @param base The base to convert to.
+ * @return The string representation after the conversion.
+ */

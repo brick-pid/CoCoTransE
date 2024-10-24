@@ -1,0 +1,7 @@
+/**
+ * Implement a function that takes a non-negative integer and returns an array of the first n prime numbers
+ * that are less than n.
+ * 
+ * @param n The upper limit (exclusive) for finding prime numbers.
+ * @return A list of the first n prime numbers less than n.
+ */

@@ -1,0 +1,9 @@
+/**
+ * Determine whether it is possible to perform an exchange of elements between two lists
+ * to make the first list (lst1) contain only even numbers.
+ * 
+ * @param lst1 The first list of numbers.
+ * @param lst2 The second list of numbers.
+ * @return "YES" if it is possible to exchange elements to make all elements of lst1 even,
+ *         otherwise "NO".
+ */

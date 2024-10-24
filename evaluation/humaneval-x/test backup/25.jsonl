@@ -1,0 +1,15 @@
+main() {
+    let correct = ArrayList<Bool>(
+            factorize(2) == (ArrayList<Int32>(2)),
+            factorize(4) == (ArrayList<Int32>(2, 2)),
+            factorize(8) == (ArrayList<Int32>(2, 2, 2)),
+            factorize(3 * 19) == (ArrayList<Int32>(3, 19)),
+            factorize(3 * 19 * 3 * 19) == (ArrayList<Int32>(3, 3, 19, 19)),
+            factorize(3 * 19 * 3 * 19 * 3 * 19) == (ArrayList<Int32>(3, 3, 3, 19, 19, 19)),
+            factorize(3 * 19 * 19 * 19) == (ArrayList<Int32>(3, 19, 19, 19)),
+            factorize(3 * 2 * 3) == (ArrayList<Int32>(2, 3, 3))
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

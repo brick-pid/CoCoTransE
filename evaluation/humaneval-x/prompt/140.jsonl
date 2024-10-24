@@ -1,0 +1,7 @@
+/**
+ * Replaces all spaces in the input string with underscores.
+ * Also replaces consecutive spaces (more than 2) with a single dash (-).
+ * 
+ * @param text The input string to be processed.
+ * @return The processed string with spaces replaced as described.
+ */

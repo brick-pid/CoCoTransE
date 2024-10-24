@@ -1,0 +1,12 @@
+
+main() {
+    let correct = ArrayList<Bool>(
+            generateIntegers(2, 10)==ArrayList<Int32>(2, 4, 6, 8),
+            generateIntegers(10, 2)==ArrayList<Int32>(2, 4, 6, 8),
+            generateIntegers(132, 2)==ArrayList<Int32>(2, 4, 6, 8),
+            generateIntegers(17, 89)==ArrayList<Int32>()
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

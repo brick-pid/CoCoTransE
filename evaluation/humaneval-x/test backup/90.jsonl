@@ -1,0 +1,14 @@
+main() {
+    let correct = ArrayList<Bool>(
+            nextSmallest(ArrayList<Int32>(1, 2, 3, 4, 5)).getOrThrow() == 2,
+            nextSmallest(ArrayList<Int32>(5, 1, 4, 3, 2)).getOrThrow() == 2,
+            nextSmallest(ArrayList<Int32>())==None,
+            nextSmallest(ArrayList<Int32>(1, 1))==None,
+            nextSmallest(ArrayList<Int32>(1, 1, 1, 1, 0)).getOrThrow() == 1,
+            nextSmallest(ArrayList<Int32>(1, Int32(math.pow(0.0, 0.0))))==None,
+            nextSmallest(ArrayList<Int32>(-35, 34, 12, -45)).getOrThrow() == -35
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

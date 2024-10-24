@@ -1,0 +1,8 @@
+/**
+ * Given a non-empty array of integers arr and an integer k,
+ * return the sum of the elements with at most two digits from the first k elements of arr.
+ * 
+ * @param arr The list of integers.
+ * @param k The number of elements to consider from the start of arr.
+ * @return The sum of the elements with at most two digits from the first k elements of arr.
+ */

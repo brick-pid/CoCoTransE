@@ -1,0 +1,11 @@
+main() {
+    let correct = ArrayList<Bool>(
+            f(5)==ArrayList<Int32>(1, 2, 6, 24, 15),
+            f(7)==ArrayList<Int32>(1, 2, 6, 24, 15, 720, 28),
+            f(1)==ArrayList<Int32>(1),
+            f(3)==ArrayList<Int32>(1, 2, 6)
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

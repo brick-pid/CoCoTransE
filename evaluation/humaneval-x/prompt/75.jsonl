@@ -1,0 +1,7 @@
+/**
+ * Write a function that returns true if the given number is the multiplication of 3 prime numbers and false otherwise.
+ * Knowing that the number is less than 100.
+ *
+ * @param a The number to check.
+ * @return True if the number is the multiplication of 3 prime numbers, false otherwise.
+ */

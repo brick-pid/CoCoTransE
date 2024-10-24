@@ -1,0 +1,7 @@
+/**
+ * Return sorted unique common elements for two lists.
+ *
+ * @param l1 The first list of integers.
+ * @param l2 The second list of integers.
+ * @return A list containing sorted unique common elements between l1 and l2.
+ */

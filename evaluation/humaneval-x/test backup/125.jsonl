@@ -1,0 +1,15 @@
+main() {
+    let correct = ArrayList<Bool>(
+            splitWords("Hello world!") == ArrayList<Int32>("Hello", "world!"),
+            splitWords("Hello,world!") == ArrayList<Int32>("Hello", "world!"),
+            splitWords("Hello world,!") == ArrayList<Int32>("Hello", "world,!"),
+            splitWords("Hello,Hello,world !") == ArrayList<Int32>("Hello,Hello,world", "!"),
+            splitWords("abcdef") == 3,
+            splitWords("aaabb") == 2,
+            splitWords("aaaBb") == 1,
+            splitWords("") == 0
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

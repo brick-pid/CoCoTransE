@@ -1,0 +1,7 @@
+/**
+ * Finds the largest index of an element in the list that is not greater than or equal to the element immediately preceding it.
+ * If no such element exists, returns -1.
+ * 
+ * @param arr The list of integers.
+ * @return The largest index of an element that does not meet the condition, or -1 if no such element exists.
+ */

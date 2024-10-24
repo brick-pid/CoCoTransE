@@ -1,0 +1,10 @@
+main() {
+    let correct = ArrayList<Bool>(
+            incrList(ArrayList<Int32>()) == (ArrayList<Int32>()),
+            incrList(ArrayList<Int32>(3, 2, 1)) == (ArrayList<Int32>(4, 3, 2)),
+            incrList(ArrayList<Int32>(5, 2, 5, 2, 3, 3, 9, 0, 123)) == (ArrayList<Int32>(6, 3, 6, 3, 4, 4, 10, 1, 124))
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

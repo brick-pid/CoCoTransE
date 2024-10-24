@@ -1,0 +1,7 @@
+/**
+ * For a given list of integers, return a tuple consisting of a sum and a product of all the integers in the list.
+ * Empty sum should be equal to 0 and empty product should be equal to 1.
+ *
+ * @param numbers The list of integers.
+ * @return A list containing the sum and the product of all the integers in the list.
+ */

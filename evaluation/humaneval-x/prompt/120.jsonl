@@ -1,0 +1,8 @@
+/**
+ * Given an array arr of integers and a positive integer k, return a sorted list of length k
+ * with the maximum k numbers in arr.
+ * 
+ * @param arr The input array of integers.
+ * @param k The length of the sorted list to return.
+ * @return A sorted list of the maximum k numbers in arr.
+ */

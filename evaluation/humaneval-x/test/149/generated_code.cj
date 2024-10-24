@@ -1,0 +1,20 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            listSort(ArrayList<String>("aa", "a", "aaa"))==ArrayList<String>("aa"),
+            listSort(ArrayList<String>("school", "AI", "asdf", "b"))==ArrayList<String>("AI", "asdf", "school"),
+            listSort(ArrayList<String>("d", "b", "c", "a"))==ArrayList<String>(),
+            listSort(ArrayList<String>("d", "dcba", "abcd", "a"))==ArrayList<String>("abcd", "dcba"),
+            listSort(ArrayList<String>("AI", "ai", "au"))==ArrayList<String>("AI", "ai", "au"),
+            listSort(ArrayList<String>("a", "b", "b", "c", "c", "a"))==ArrayList<String>(),
+            listSort(ArrayList<String>("aaaa", "bbbb", "dd", "cc"))==ArrayList<String>("cc", "dd", "aaaa", "bbbb")
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

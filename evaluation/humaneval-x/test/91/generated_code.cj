@@ -1,0 +1,19 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            isBored("Hello world") == 0,
+            isBored("Is the sky blue?") == 0,
+            isBored("I love It !") == 1,
+            isBored("bIt") == 0,
+            isBored("I feel good today. I will be productive. will kill It") == 2,
+            isBored("You and I are going for a walk") == 0
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

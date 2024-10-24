@@ -1,0 +1,6 @@
+/**
+ * brackets is a string of "(" and ")". Return true if every opening bracket has a corresponding closing bracket.
+ *
+ * @param brackets The string of brackets to check.
+ * @return True if every opening bracket has a corresponding closing bracket, otherwise false.
+ */

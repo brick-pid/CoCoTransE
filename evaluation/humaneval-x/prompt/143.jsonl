@@ -1,0 +1,7 @@
+/**
+ * Extracts words from a sentence whose lengths are prime numbers.
+ * 
+ * @param sentence The input sentence containing words separated by spaces.
+ * @return A string containing words from the original sentence whose lengths are prime numbers,
+ *         preserving the order of words as in the original sentence.
+ */

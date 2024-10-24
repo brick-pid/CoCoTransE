@@ -1,0 +1,11 @@
+/**
+ * Checks if the given file name is valid based on specific criteria:
+ * 
+ * 1. The file name should not contain more than three digits ('0'-'9').
+ * 2. The file name must contain exactly one dot '.'.
+ * 3. The substring before the dot should not be empty and must start with a letter from the Latin alphabet ('a'-'z' or 'A'-'Z').
+ * 4. The substring after the dot should be one of the following: "txt", "exe", "dll".
+ * 
+ * @param file_name The file name to be checked.
+ * @return "Yes" if the file name meets all the criteria; otherwise, "No".
+ */

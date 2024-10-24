@@ -1,0 +1,21 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            digitSum("") == 0,
+            digitSum("abAB") == 131,
+            digitSum("abcCd") == 67,
+            digitSum("helloE") == 69,
+            digitSum("woArBld") == 131,
+            digitSum("aAaaaXa") == 153,
+            digitSum(" How are yOu?") == 151,
+            digitSum("You arE Very Smart") == 327
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

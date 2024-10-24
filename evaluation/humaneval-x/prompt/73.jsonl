@@ -1,0 +1,8 @@
+/**
+ * This function finds the minimum number of elements that need to be changed to make the array palindromic.
+ * A palindromic array is an array that is read the same backwards and forwards.
+ * In one change, you can change one element to any other element.
+ *
+ * @param arr The input array of integers.
+ * @return The minimum number of elements that need to be changed to make the array palindromic.
+ */

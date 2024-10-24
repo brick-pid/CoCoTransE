@@ -1,0 +1,9 @@
+/**
+* Find x such that poly(x) = 0.
+* findZero returns only one zero point, even if there are many.
+* Moreover, findZero only takes a list xs having an even number of coefficients and largest non-zero coefficient,
+* as it guarantees a solution.
+*
+* @param xs The list of coefficients of the polynomial.
+* @return The zero point of the polynomial.
+*/

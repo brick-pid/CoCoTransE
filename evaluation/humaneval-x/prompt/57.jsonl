@@ -1,0 +1,6 @@
+/**
+ * Return true if list elements are monotonically increasing or decreasing.
+ *
+ * @param l The list of integers.
+ * @return True if the list is monotonically increasing or decreasing, false otherwise.
+ */

@@ -1,0 +1,11 @@
+/**
+ * Input to this function is a string representing musical notes in a special ASCII format.
+ * Your task is to parse this string and return a list of integers corresponding to how many beats each note lasts.
+ * Here is a legend:
+ * "o" - whole note, lasts four beats
+ * "o|" - half note, lasts two beats
+ * ".|" - quarter note, lasts one beat
+ *
+ * @param string The input string representing musical notes.
+ * @return The list of integers corresponding to how many beats each note lasts.
+ */

@@ -1,0 +1,6 @@
+/**
+ * Concatenate a list of strings into a single string.
+ *
+ * @param strings The list of strings to concatenate.
+ * @return The concatenated string.
+ */

@@ -1,0 +1,6 @@
+/**
+ * Computes the sum of squared numbers in the given list after rounding each element to the nearest integer (Ceiling).
+ * 
+ * @param lst A list of numbers (doubles).
+ * @return The sum of squared rounded numbers in the list.
+ */

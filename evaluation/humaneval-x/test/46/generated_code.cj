@@ -1,0 +1,17 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            fib4(5) == 4,
+            fib4(8) == 28,
+            fib4(10) == 104,
+            fib4(12) == 386
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

@@ -1,0 +1,6 @@
+/**
+ * Return the median of elements in the list l.
+ *
+ * @param l The list of integers.
+ * @return The median of the elements in the list.
+ */

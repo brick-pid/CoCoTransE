@@ -1,0 +1,8 @@
+/**
+ * Implement the function f that takes n as a parameter and returns a list of size n.
+ * The value of the element at index i is the factorial of i if i is even, or the sum of numbers from 1 to i otherwise.
+ * 
+ * @param n The size of the list to generate.
+ * @return A list where each element at index i is the factorial of i if i is even,
+ *         or the sum of numbers from 1 to i if i is odd. i starts from 1.
+ */

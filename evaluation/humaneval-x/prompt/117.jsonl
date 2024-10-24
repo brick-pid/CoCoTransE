@@ -1,0 +1,8 @@
+/**
+ * Given a string s and a natural number n, returns a list of all words from string s
+ * that contain exactly n consonants, in the order these words appear in the string s.
+ * 
+ * @param s The input string containing only letters and spaces.
+ * @param n The number of consonants to check for in each word.
+ * @return A list of words from string s that contain exactly n consonants.
+ */

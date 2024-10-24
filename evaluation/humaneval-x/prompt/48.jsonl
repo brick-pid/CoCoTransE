@@ -1,0 +1,6 @@
+/**
+ * Checks if the given string is a palindrome.
+ *
+ * @param text The input string to check.
+ * @return True if the string is a palindrome, false otherwise.
+ */

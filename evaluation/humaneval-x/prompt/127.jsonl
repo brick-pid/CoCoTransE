@@ -1,0 +1,7 @@
+/**
+ * Determines whether the length of intersection of two intervals is a prime number.
+ * 
+ * @param interval1 The first interval represented as a pair of integers (start, end).
+ * @param interval2 The second interval represented as a pair of integers (start, end).
+ * @return "YES" if the length of the intersection is a prime number, otherwise "NO".
+ */

@@ -1,0 +1,7 @@
+/**
+ * Find how many times a given substring can be found in the original string. Count overlapping cases.
+ *
+ * @param string    The original string.
+ * @param substring The substring to search for.
+ * @return The number of times the substring can be found in the original string.
+ */

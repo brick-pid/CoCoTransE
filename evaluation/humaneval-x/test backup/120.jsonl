@@ -1,0 +1,17 @@
+main() {
+    let correct = ArrayList<Bool>(
+            maximum(ArrayList<Int32>(-3, -4, 5), 3)==ArrayList<Int32>(-4, -3, 5),
+            maximum(ArrayList<Int32>(4, -4, 4), 2)==ArrayList<Int32>(4, 4),
+            maximum(ArrayList<Int32>(-3, 2, 1, 2, -1, -2, 1), 1)==ArrayList<Int32>(2),
+            maximum(ArrayList<Int32>(123, -123, 20, 0 , 1, 2, -3), 3)==ArrayList<Int32>(2, 20, 123),
+            maximum(ArrayList<Int32>(-123, 20, 0 , 1, 2, -3), 4)==ArrayList<Int32>(0, 1, 2, 20),
+            maximum(ArrayList<Int32>(5, 15, 0, 3, -13, -8, 0), 7)==ArrayList<Int32>(-13, -8, 0, 0, 3, 5, 15),
+            maximum(ArrayList<Int32>(-1, 0, 2, 5, 3, -10), 2)==ArrayList<Int32>(3, 5),
+            maximum(ArrayList<Int32>(1, 0, 5, -7), 1)==ArrayList<Int32>(5),
+            maximum(ArrayList<Int32>(4, -4), 2)==ArrayList<Int32>(-4, 4),
+            maximum(ArrayList<Int32>(-10, 10), 2)==ArrayList<Int32>(-10, 10)
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

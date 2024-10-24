@@ -1,0 +1,7 @@
+/**
+ * Create a function that takes a value (string) representing a number and returns the closest integer to it.
+ * If the number is equidistant from two integers, round it away from zero.
+ * 
+ * @param value The string representing the number.
+ * @return The closest integer to the specified number, rounded away from zero if equidistant.
+ */

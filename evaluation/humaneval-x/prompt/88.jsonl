@@ -1,0 +1,7 @@
+/**
+ * Given an array of non-negative integers, return a copy of the given array after sorting.
+ * 
+ * @param array The list of non-negative integers to be sorted.
+ * @return A sorted copy of the input array. If the sum of the first and last elements of the array is odd,
+ *         the array is sorted in ascending order. If the sum is even, the array is sorted in descending order.
+ */

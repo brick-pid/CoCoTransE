@@ -1,0 +1,20 @@
+//from std import random.*
+//from std import math.*
+main() {
+    let rand = Random(42);
+    for (i in 0..100) {
+        var ncoeff : Int32 = 2 * (rand.nextInt32(3) + 1);
+        let coeffs = ArrayList<Float64>();
+        for (j in 0..ncoeff) {
+            var coeff : Int32 = rand.nextInt32(20) - 10;
+            if (coeff == 0) {
+                coeff = 1;
+            }
+            coeffs.append(Float64((coeff));
+        }
+        var solution : Float64 = findZero(coeffs);
+        if (abs(poly(coeffs, solution)) > 1e-4) {
+            throw new AssertionError();
+        }
+    }
+}

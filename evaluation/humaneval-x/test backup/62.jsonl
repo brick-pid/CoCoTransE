@@ -1,0 +1,12 @@
+main() {
+    let correct = ArrayList<Bool>(
+            derivative(ArrayList<Int32>(3, 1, 2, 4, 5)) == (ArrayList<Int32>(1, 4, 12, 20)),
+            derivative(ArrayList<Int32>(1, 2, 3)) == (ArrayList<Int32>(2, 6)),
+            derivative(ArrayList<Int32>(3, 2, 1)) == (ArrayList<Int32>(2, 2)),
+            derivative(ArrayList<Int32>(3, 2, 1, 0, 4)) == (ArrayList<Int32>(2, 2, 0, 16)),
+            derivative(ArrayList<Int32>(1)) == (ArrayList<Int32>())
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

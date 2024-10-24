@@ -1,0 +1,7 @@
+/**
+ * Sorts the given list of integers in ascending order according to the sum of their digits.
+ * If multiple items have the same sum of digits, they are ordered based on their index in the original list.
+ * 
+ * @param nums The list of integers to be sorted.
+ * @return The sorted list of integers based on the sum of their digits.
+ */

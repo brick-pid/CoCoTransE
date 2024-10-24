@@ -1,0 +1,7 @@
+/**
+ * Finds the minimum path of length k in a given N x N grid.
+ * 
+ * @param grid The N x N grid where each cell contains a unique integer in the range [1, N * N].
+ * @param k The length of the path (number of cells to visit).
+ * @return An ordered list of values on the cells that the minimum path goes through.
+ */

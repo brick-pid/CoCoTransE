@@ -1,0 +1,7 @@
+/**
+ * Finds the word with the maximum number of unique characters from a list of strings.
+ * If multiple strings have the maximum number of unique characters, returns the one that comes first lexicographically.
+ * 
+ * @param words The list of strings to evaluate.
+ * @return The word with the maximum number of unique characters.
+ */

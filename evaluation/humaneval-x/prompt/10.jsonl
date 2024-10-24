@@ -1,0 +1,9 @@
+/**
+* Find the shortest palindrome that begins with a supplied string.
+* Algorithm idea is simple:
+* - Find the longest postfix of the supplied string that is a palindrome.
+* - Append to the end of the string the reverse of a string prefix that comes before the palindromic suffix.
+*
+* @param string The string to make a palindrome from.
+* @return The shortest palindrome beginning with the supplied string.
+*/

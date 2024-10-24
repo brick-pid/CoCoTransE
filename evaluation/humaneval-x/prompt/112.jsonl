@@ -1,0 +1,10 @@
+/**
+ * Given two strings s and c, delete all characters in s that are equal to any character in c.
+ * Then check if the resulting string is a palindrome. A string is called palindrome if it reads
+ * the same backward as forward.
+ * 
+ * @param s The original string from which characters will be deleted.
+ * @param c The characters to be deleted from the original string.
+ * @return A tuple containing the result string after deletion and a boolean indicating whether
+ *         the result string is a palindrome (true) or not (false).
+ */

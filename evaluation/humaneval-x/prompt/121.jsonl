@@ -1,0 +1,6 @@
+/**
+ * Given a non-empty list of integers, return the sum of all odd elements that are in even positions (0-based index).
+ * 
+ * @param lst The list of integers.
+ * @return The sum of all odd elements that are in even positions.
+ */

@@ -1,0 +1,8 @@
+/**
+ * Write a function that takes a message and encodes it in a specific manner:
+ * - Swaps the case of all letters.
+ * - Replaces all vowels in the message with the letter that appears 2 places ahead of that vowel in the English alphabet.
+ * 
+ * @param message The message to be encoded.
+ * @return The encoded message with swapped case and replaced vowels.
+ */

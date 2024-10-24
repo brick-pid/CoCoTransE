@@ -1,0 +1,7 @@
+/**
+ * Given a map, return true if all keys are strings in lowercase or all keys are strings in uppercase,
+ * otherwise return false. Returns false if the given map is empty.
+ * 
+ * @param dict The map to be checked.
+ * @return true if all keys are strings in consistent case (either all lowercase or all uppercase), false otherwise.
+ */

@@ -1,0 +1,6 @@
+/**
+ * Return true if a given number is prime, and false otherwise.
+ *
+ * @param n The number to check for primality.
+ * @return True if the number is prime, false otherwise.
+ */

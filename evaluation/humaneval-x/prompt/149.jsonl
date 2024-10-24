@@ -1,0 +1,8 @@
+/**
+ * Deletes strings with odd lengths from the input list, sorts the remaining strings
+ * first by ascending length and then alphabetically for strings with the same length,
+ * and returns the sorted list of strings.
+ * 
+ * @param lst The list of strings to be processed.
+ * @return The sorted list of strings after removing strings with odd lengths.
+ */

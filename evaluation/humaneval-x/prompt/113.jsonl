@@ -1,0 +1,7 @@
+/**
+ * Given a list of strings where each string consists of only digits,
+ * return a list where each element represents "the number of odd elements in the string i of the input."
+ * 
+ * @param lst The list of strings consisting of only digits.
+ * @return A list of strings where each string describes the number of odd digits in the corresponding input string.
+ */

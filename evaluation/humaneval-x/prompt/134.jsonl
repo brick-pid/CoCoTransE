@@ -1,0 +1,6 @@
+/**
+ * Checks if the last character of a given string is an alphabetical character and is not part of a word.
+ * 
+ * @param txt The input string to be checked.
+ * @return true if the last character is an alphabetical character and not part of a word; otherwise, false.
+ */

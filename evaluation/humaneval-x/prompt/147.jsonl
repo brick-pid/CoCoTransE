@@ -1,0 +1,9 @@
+/**
+ * Creates an integer array based on the given positive integer n,
+ * where each element a[i] = i * i - i + 1.
+ * Returns the number of triples (a[i], a[j], a[k]) where i < j < k,
+ * and a[i] + a[j] + a[k] is a multiple of 3.
+ * 
+ * @param n The length of the integer array to be created.
+ * @return The number of valid triples meeting the specified conditions.
+ */

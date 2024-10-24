@@ -1,0 +1,9 @@
+/**
+ * This function takes two positive numbers x and y and returns the
+ * biggest even integer number that is in the range [x, y] inclusive.
+ * If there's no such number, then the function should return -1.
+ * 
+ * @param x The lower bound of the range.
+ * @param y The upper bound of the range.
+ * @return The largest even integer within the range [x, y], or -1 if no such number exists.
+ */

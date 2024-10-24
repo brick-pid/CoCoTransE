@@ -1,0 +1,16 @@
+main() {
+    let correct = ArrayList<Bool>(
+            triangleArea(3, 4, 5) == 6.00,
+            triangleArea(1, 2, 10) == -1,
+            triangleArea(4, 8, 5) == 8.18,
+            triangleArea(2, 2, 2) == 1.73,
+            triangleArea(1, 2, 3) == -1,
+            triangleArea(10, 5, 7) == 16.25,
+            triangleArea(2, 6, 3) == -1,
+            triangleArea(1, 1, 1) == 0.43,
+            triangleArea(2, 2, 10) == -1
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

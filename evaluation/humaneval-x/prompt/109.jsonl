@@ -1,0 +1,8 @@
+/**
+ * Determine if it is possible to obtain a sorted array in non-decreasing order
+ * by performing right shift operations on the given array.
+ * 
+ * @param arr The array of integers to evaluate.
+ * @return true if it is possible to obtain a sorted array by performing right shift operations,
+ *         false otherwise.
+ */

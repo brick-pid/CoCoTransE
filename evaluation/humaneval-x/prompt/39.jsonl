@@ -1,0 +1,6 @@
+/**
+ * primeFib returns the n-th number that is a Fibonacci number and is also prime.
+ *
+ * @param n The position of the prime Fibonacci number to find.
+ * @return The n-th prime Fibonacci number.
+ */

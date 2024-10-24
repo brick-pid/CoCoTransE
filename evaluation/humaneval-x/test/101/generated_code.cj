@@ -1,0 +1,19 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            wordStrings("Hi, my name is John") == ArrayList<String>("Hi", "my", "name", "is", "John"),
+            wordStrings("One, two, three, four, five, six") == ArrayList<String>("One", "two", "three", "four", "five", "six"),
+            wordStrings("Hi, my name") == ArrayList<String>("Hi", "my", "name"),
+            wordStrings("One,, two, three, four, five, six,") == ArrayList<String>("One", "two", "three", "four", "five", "six"),
+            wordStrings("") == ArrayList<String>(),
+            wordStrings("ahmed     , gamal") == ArrayList<String>("ahmed", "gamal")
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

@@ -1,0 +1,11 @@
+main() {
+    let correct = ArrayList<Bool>(
+            uniqueDigits(ArrayList<Int32>(15, 33, 1422, 1))==ArrayList<Int32>(1, 15, 33),
+            uniqueDigits(ArrayList<Int32>(152, 323, 1422, 10))==ArrayList<Int32>(),
+            uniqueDigits(ArrayList<Int32>(12345, 2033, 111, 151))==ArrayList<Int32>(111, 151),
+            uniqueDigits(ArrayList<Int32>(135, 103, 31))==ArrayList<Int32>(31, 135)
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

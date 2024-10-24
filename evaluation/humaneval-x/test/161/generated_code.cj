@@ -1,0 +1,21 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            solve("AsDf")=="aSdF",
+            solve("1234")=="4321",
+            solve("ab")=="AB",
+            solve("#a@C")=="#A@c",
+            solve("#AsdfW^45")=="#aSDFw^45",
+            solve("#6@2")=="2@6#",
+            solve("#$a^D")=="#$A^d",
+            solve("#ccc")=="#CCC"
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

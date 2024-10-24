@@ -1,0 +1,6 @@
+/**
+ * Convert a decimal number to binary format.
+ *
+ * @param decimal The decimal number to convert.
+ * @return The binary representation of the decimal number.
+ */

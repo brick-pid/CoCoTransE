@@ -1,0 +1,9 @@
+/**
+ * Compares the guesses against the actual scores for a series of matches and returns
+ * a list of how far off each guess was from the corresponding score.
+ * 
+ * @param game The list of actual scores for each match.
+ * @param guess The list of guessed scores for each match.
+ * @return A list of the absolute differences between the guesses and the actual scores.
+ *         A value of 0 indicates a correct guess.
+ */

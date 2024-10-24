@@ -1,0 +1,17 @@
+main() {
+    let correct = ArrayList<Bool>(
+            separateParenGroups("(()()) ((())) () ((())()())") == (ArrayList<String>(
+                    "(()())", "((()))", "()", "((())()())"
+            )),
+            separateParenGroups("() (()) ((())) (((())))") == (ArrayList<String>(
+                    "()", "(())", "((()))", "(((())))"
+            )),
+            separateParenGroups("(()(())((())))") == (ArrayList<String>(
+                    "(()(())((())))"
+            )),
+            separateParenGroups("( ) (( )) (( )( ))") == (ArrayList<String>("()", "(())", "(()())"))
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

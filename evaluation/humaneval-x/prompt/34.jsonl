@@ -1,0 +1,6 @@
+/**
+ * Return sorted unique elements in a list.
+ *
+ * @param l The list of integers.
+ * @return The sorted list of unique elements.
+ */

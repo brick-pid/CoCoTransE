@@ -1,0 +1,21 @@
+main() {
+    let correct = ArrayList<Bool>(
+            IntToMiniRoman(19) == "xix",
+            IntToMiniRoman(152) == "clii",
+            IntToMiniRoman(251) == "ccli",
+            IntToMiniRoman(426) == "cdxxvi",
+            IntToMiniRoman(500) == "d",
+            IntToMiniRoman(1) == "i",
+            IntToMiniRoman(4) == "iv",
+            IntToMiniRoman(43) == "xliii",
+            IntToMiniRoman(90) == "xc",
+            IntToMiniRoman(94) == "xciv",
+            IntToMiniRoman(532) == "dxxxii",
+            IntToMiniRoman(900) == "cm",
+            IntToMiniRoman(994) == "cmxciv",
+            IntToMiniRoman(1000) == "m"
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

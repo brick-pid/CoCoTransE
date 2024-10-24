@@ -1,0 +1,8 @@
+/**
+ * Given a string representing space-separated lowercase letters, return a dictionary
+ * of the letter with the most repetitions and their corresponding counts. If several
+ * letters have the same occurrence, return all of them.
+ * 
+ * @param test The input string of space-separated lowercase letters.
+ * @return A map containing the letter(s) with the maximum occurrences and their counts.
+ */

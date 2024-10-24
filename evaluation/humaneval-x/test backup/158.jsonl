@@ -1,0 +1,17 @@
+main() {
+    let correct = ArrayList<Bool>(
+            findMax(ArrayList<String>("name", "of", "string"))=="string",
+            findMax(ArrayList<String>("name", "enam", "game"))=="enam",
+            findMax(ArrayList<String>("aaaaaaa", "bb", "cc"))=="aaaaaaa",
+            findMax(ArrayList<String>("abc", "cba"))=="abc",
+            findMax(ArrayList<String>("play", "this", "game", "of", "footbott"))=="footbott",
+            findMax(ArrayList<String>("we", "are", "gonna", "rock"))=="gonna",
+            findMax(ArrayList<String>("we", "are", "a", "mad", "nation"))=="nation",
+            findMax(ArrayList<String>("this", "is", "a", "prrk"))=="this",
+            findMax(ArrayList<String>("b"))=="b",
+            findMax(ArrayList<String>("play", "play", "play"))=="play")
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

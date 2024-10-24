@@ -1,0 +1,6 @@
+/**
+ * Determines whether there is a valid nested subsequence of square brackets in the input string.
+ * 
+ * @param string A string consisting only of square brackets.
+ * @return true if there exists a valid nested subsequence of brackets; otherwise, false.
+ */

@@ -1,0 +1,12 @@
+/**
+ * Given a positive integer n, return a sorted list of the odd numbers in the Collatz sequence starting from n.
+ * The Collatz sequence is defined as follows:
+ * - Start with any positive integer n.
+ * - Each term is obtained from the previous term as follows:
+ *   - If the previous term is even, the next term is one half of the previous term.
+ *   - If the previous term is odd, the next term is 3 times the previous term plus 1.
+ * - The sequence is expected to eventually reach 1 (Collatz conjecture).
+ * 
+ * @param n The starting integer for the Collatz sequence.
+ * @return A sorted list of the odd numbers in the Collatz sequence starting from n.
+ */

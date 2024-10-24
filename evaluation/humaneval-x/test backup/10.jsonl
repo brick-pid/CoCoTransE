@@ -1,0 +1,12 @@
+main() {
+    let correct = ArrayList<Bool>(
+            (makePalindrome("") == ""),
+            (makePalindrome("x") == "x"),
+            (makePalindrome("xyz") == "xyzyx"),
+            (makePalindrome("xyx") == "xyx"),
+            (makePalindrome("jerry") == "jerryrrej")
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

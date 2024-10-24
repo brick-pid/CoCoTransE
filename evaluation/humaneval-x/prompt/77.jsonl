@@ -1,0 +1,6 @@
+/**
+ * Write a function that takes an integer a and returns true if this integer is a cube of some integer number.
+ *
+ * @param a The integer to check.
+ * @return True if a is a cube of some integer number, false otherwise.
+ */

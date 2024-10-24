@@ -1,0 +1,6 @@
+/**
+ * Return the n-th Fibonacci number.
+ *
+ * @param n The index of the Fibonacci number to return.
+ * @return The n-th Fibonacci number.
+ */

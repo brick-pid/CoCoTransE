@@ -1,0 +1,6 @@
+/**
+* Takes as input a string encoded with encodeCyclic function and returns the decoded string.
+*
+* @param s The encoded string to decode.
+* @return The decoded string.
+*/

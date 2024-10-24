@@ -1,0 +1,10 @@
+main() {
+    let correct = ArrayList<Bool>(
+            removeDuplicates(ArrayList<Int32>()) == (ArrayList<Int32>()),
+            removeDuplicates(ArrayList<Int32>(1, 2, 3, 4)) == (ArrayList<Int32>(1, 2, 3, 4)),
+            removeDuplicates(ArrayList<Int32>(1, 2, 3, 2, 4, 3, 5)) == (ArrayList<Int32>(1, 4, 5))
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

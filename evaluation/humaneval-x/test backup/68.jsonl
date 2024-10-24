@@ -1,0 +1,15 @@
+main() {
+    let correct = ArrayList<Bool>(
+            pluck(ArrayList<Int32>(4, 2, 3)) == (ArrayList<Int32>(2, 1)),
+            pluck(ArrayList<Int32>(1, 2, 3)) == (ArrayList<Int32>(2, 1)),
+            pluck(ArrayList<Int32>()) == (ArrayList<Int32>()),
+            pluck(ArrayList<Int32>(5, 0, 3, 0, 4, 2)) == (ArrayList<Int32>(0, 1)),
+            pluck(ArrayList<Int32>(1, 2, 3, 0, 5, 3)) == (ArrayList<Int32>(0, 3)),
+            pluck(ArrayList<Int32>(5, 4, 8, 4, 8)) == (ArrayList<Int32>(4, 1)),
+            pluck(ArrayList<Int32>(7, 6, 7, 1)) == (ArrayList<Int32>(6, 1)),
+            pluck(ArrayList<Int32>(7, 9, 7, 1)) == (ArrayList<Int32>())
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

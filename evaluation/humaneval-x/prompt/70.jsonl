@@ -1,0 +1,8 @@
+/**
+ * Given a list of integers, this function returns a list sorted in a strange order.
+ * Strange sorting starts with the minimum value, then the maximum of the remaining integers,
+ * then the minimum, and so on.
+ *
+ * @param lst The list of integers.
+ * @return The list sorted in a strange order.
+ */

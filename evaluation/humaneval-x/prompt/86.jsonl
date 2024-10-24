@@ -1,0 +1,6 @@
+/**
+ * Write a function that takes a string and returns an ordered version of it.
+ * 
+ * @param s The input string.
+ * @return The ordered version of the input string.
+ */

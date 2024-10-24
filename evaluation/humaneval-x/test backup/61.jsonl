@@ -1,0 +1,19 @@
+main() {
+    let correct = ArrayList<Bool>(
+            correctBracketing("()"),
+            correctBracketing("(()())"),
+            correctBracketing("()()(()())()"),
+            correctBracketing("()()((()()())())(()()(()))"),
+            !correctBracketing("((()())))"),
+            !correctBracketing(")(()"),
+            !correctBracketing("("),
+            !correctBracketing("(((("),
+            !correctBracketing(")"),
+            !correctBracketing("(()"),
+            !correctBracketing("()()(()())())(()"),
+            !correctBracketing("()()(()())()))()")
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

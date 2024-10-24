@@ -1,0 +1,31 @@
+main() {
+    let correct = ArrayList<Bool>(
+            filenameCheck("example.txt") == "Yes",
+            filenameCheck("1example.dll") == "No",
+            filenameCheck("s1sdf3.asd") == "No",
+            filenameCheck("K.dll") == "Yes",
+            filenameCheck("MY16FILE3.exe") == "Yes",
+            filenameCheck("His12FILE94.exe") == "No",
+            filenameCheck("_Y.txt") == "No",
+            filenameCheck("?aREYA.exe") == "No",
+            filenameCheck("/this_is_valid.dll") == "No",
+            filenameCheck("this_is_valid.wow") == "No",
+            filenameCheck("this_is_valid.txt") == "Yes",
+            filenameCheck("this_is_valid.txtexe") == "No",
+            filenameCheck("#this2_i4s_5valid.ten") == "No",
+            filenameCheck("@this1_is6_valid.exe") == "No",
+            filenameCheck("this_is_12valid.6exe4.txt") == "No",
+            filenameCheck("all.exe.txt") == "No",
+            filenameCheck("I563_No.exe") == "Yes",
+            filenameCheck("Is3youfault.txt") == "Yes",
+            filenameCheck("no_one#knows.dll") == "Yes",
+            filenameCheck("1I563_Yes3.exe") == "No",
+            filenameCheck("I563_Yes3.txtt") == "No",
+            filenameCheck("final..txt") == "No",
+            filenameCheck("final132") == "No",
+            filenameCheck("_f4indsartal132.") == "No"
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

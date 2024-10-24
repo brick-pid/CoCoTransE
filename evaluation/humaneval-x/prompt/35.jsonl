@@ -1,0 +1,6 @@
+/**
+ * Return the maximum element in the list.
+ *
+ * @param l The list of integers.
+ * @return The maximum element in the list.
+ */

@@ -1,0 +1,7 @@
+/**
+ * Return true if all numbers in the list l are below threshold t.
+ *
+ * @param l The list of integers.
+ * @param t The threshold value.
+ * @return True if all numbers are below the threshold, false otherwise.
+ */

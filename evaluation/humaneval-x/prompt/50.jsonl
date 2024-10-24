@@ -1,0 +1,6 @@
+/**
+* Takes as input a string encoded with the encodeShift function. Returns the decoded string.
+*
+* @param s The input string to decode.
+* @return The decoded string.
+*/

@@ -1,0 +1,6 @@
+/**
+ * Computes the Brazilian factorial of a positive integer n, defined as n! * (n-1)! * (n-2)! * ... * 1!.
+ * 
+ * @param n The integer input (n > 0) for which to compute the special factorial.
+ * @return The special factorial of the input integer.
+ */

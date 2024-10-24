@@ -1,0 +1,6 @@
+/**
+ * Given a list of numbers, checks whether they are sorted in ascending order without any duplicates.
+ * 
+ * @param lst The list of integers to be checked.
+ * @return True if the list is sorted in ascending order without duplicates, false otherwise.
+ */

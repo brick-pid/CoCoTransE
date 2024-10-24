@@ -1,0 +1,7 @@
+/**
+ * Return the greatest common divisor of two integers a and b.
+ *
+ * @param a The first integer.
+ * @param b The second integer.
+ * @return The greatest common divisor of the two integers.
+ */

@@ -1,0 +1,11 @@
+main() {
+    let correct = ArrayList<Bool>(
+            doAlgebra(ArrayList<String>("**", "*", "+"), ArrayList<Int32>(2, 3, 4, 5)) == 37,
+            doAlgebra(ArrayList<String>("+", "*", "-"), ArrayList<Int32>(2, 3, 4, 5)) == 9,
+            doAlgebra(ArrayList<String>("/", "*"), ArrayList<Int32>(7, 3, 4)) == 8,
+            doAlgebra(ArrayList<String>("+", "**", "**"), ArrayList<Int32>(7, 5, 3, 2)) == 1953132
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

@@ -1,0 +1,15 @@
+main() {
+    let correct = ArrayList<Bool>(
+            evenOddPalindrome(123)==ArrayList<Int32>(8, 13),
+            evenOddPalindrome(12)==ArrayList<Int32>(4, 6),
+            evenOddPalindrome(3)==ArrayList<Int32>(1, 2),
+            evenOddPalindrome(63)==ArrayList<Int32>(6, 8),
+            evenOddPalindrome(25)==ArrayList<Int32>(5, 6),
+            evenOddPalindrome(19)==ArrayList<Int32>(4, 6),
+            evenOddPalindrome(9)==ArrayList<Int32>(4, 5),
+            evenOddPalindrome(1)==ArrayList<Int32>(0, 1)
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

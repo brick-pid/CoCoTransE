@@ -1,0 +1,9 @@
+main() {
+    let correct = ArrayList<Bool>(
+            maxElement(ArrayList<Int32>(1, 2, 3)) == 3,
+            maxElement(ArrayList<Int32>(5, 3, -5, 2, -3, 3, 9, 0, 124, 1, -10)) == 124
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

@@ -1,0 +1,10 @@
+/**
+ * Given a positive integer n, create a pile of n levels of stones.
+ * The number of stones in each level follows a specific pattern:
+ * - If n is odd, the next level has the next odd number of stones.
+ * - If n is even, the next level has the next even number of stones.
+ * 
+ * @param n The number of levels of stones to create.
+ * @return A list representing the number of stones in each level, where element at index i
+ *         represents the number of stones in level (i+1).
+ */

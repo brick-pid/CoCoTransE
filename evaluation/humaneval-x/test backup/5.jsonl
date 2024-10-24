@@ -1,0 +1,10 @@
+main() {
+    let correct = ArrayList<Bool>(
+            Intersperse(ArrayList<Int32>(), 7) == (ArrayList<Int32>()),
+            Intersperse(ArrayList<Int32>(5, 6, 3, 2), 8) == (ArrayList<Int32>(5, 8, 6, 8, 3, 8, 2)),
+            Intersperse(ArrayList<Int32>(2, 2, 2), 2) == (ArrayList<Int32>(2, 2, 2, 2, 2))
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

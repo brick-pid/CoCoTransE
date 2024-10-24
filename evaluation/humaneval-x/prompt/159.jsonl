@@ -1,0 +1,10 @@
+/**
+ * Simulates a rabbit eating carrots to complete its daily meals.
+ * 
+ * @param number The number of carrots already eaten.
+ * @param need The number of additional carrots needed to complete the meals.
+ * @param remaining The number of remaining carrots in stock.
+ * @return An array containing:
+ *         - The total number of carrots eaten after the meals.
+ *         - The number of carrots left after the meals (if any).
+ */

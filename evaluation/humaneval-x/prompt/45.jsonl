@@ -1,0 +1,7 @@
+/**
+ * Given the length of a side and height, return the area for a triangle.
+ *
+ * @param a The length of the base side.
+ * @param h The height of the triangle.
+ * @return The area of the triangle.
+ */

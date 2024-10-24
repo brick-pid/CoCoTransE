@@ -1,0 +1,19 @@
+main() {
+    let correct = ArrayList<Bool>(
+            sumSquares(ArrayList<Int32>(1, 2, 3)) == 14,
+            sumSquares(ArrayList<Int32>(1.0, 2, 3)) == 14,
+            sumSquares(ArrayList<Int32>(1, 3, 5, 7)) == 84,
+            sumSquares(ArrayList<Int32>(1.4, 4.2, 0)) == 29,
+            sumSquares(ArrayList<Int32>(-2.4, 1, 1)) == 6,
+            sumSquares(ArrayList<Int32>(100, 1, 15, 2)) == 10230,
+            sumSquares(ArrayList<Int32>(10000, 10000)) == 200000000,
+            sumSquares(ArrayList<Int32>(-1.4, 4.6, 6.3)) == 75,
+            sumSquares(ArrayList<Int32>(-1.4, 17.9, 18.9, 19.9)) == 1086,
+            sumSquares(ArrayList<Int32>(0)) == 0,
+            sumSquares(ArrayList<Int32>(-1)) == 1,
+            sumSquares(ArrayList<Int32>(-1, 1, 0)) == 2
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

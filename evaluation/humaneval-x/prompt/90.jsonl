@@ -1,0 +1,7 @@
+/**
+ * You are given a list of integers. Write a function nextSmallest() that returns the 2nd smallest element of the list.
+ * Return null if there is no such element.
+ * 
+ * @param lst The list of integers from which to find the 2nd smallest element.
+ * @return An Optional containing the 2nd smallest element if found, or empty if no such element exists.
+ */

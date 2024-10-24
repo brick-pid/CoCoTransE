@@ -1,0 +1,17 @@
+main() {
+    let correct = ArrayList<Bool>(
+            anyint(2, 3, 1) == true,
+            anyint(2.5, 2, 3) == false,
+            anyint(1.5, 5, 3.5) == false,
+            anyint(2, 6, 2) == false,
+            anyint(4, 2, 2) == true,
+            anyint(2.2, 2.2, 2.2) == false,
+            anyint(-4, 6, 2) == true,
+            anyint(2, 1, 1) == true,
+            anyint(3, 4, 7) == true,
+            anyint(3.0, 4, 7) == false
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

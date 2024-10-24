@@ -1,0 +1,7 @@
+/**
+ * Return the largest prime factor of n.
+ * Assume n > 1 and is not a prime.
+ *
+ * @param n The number for which the largest prime factor needs to be found.
+ * @return The largest prime factor of n.
+ */

@@ -1,0 +1,6 @@
+/**
+ * Return a list of all prefixes from shortest to longest of the input string.
+ *
+ * @param string The input string.
+ * @return The list of all prefixes of the input string from shortest to longest.
+ */

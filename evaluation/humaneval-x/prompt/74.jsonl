@@ -1,0 +1,9 @@
+/**
+ * Write a function that accepts two lists of strings and returns the list
+ * that has a total number of characters in all strings of the list less than the other list.
+ * If the two lists have the same number of characters, return the first list.
+ *
+ * @param lst1 The first list of strings.
+ * @param lst2 The second list of strings.
+ * @return The list with a total number of characters less than the other list.
+ */

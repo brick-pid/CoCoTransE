@@ -1,0 +1,18 @@
+/**
+ * Test if the given string is a palindrome.
+ *
+ * @param string The string to test.
+ * @return True if the string is a palindrome, false otherwise.
+ */
+ public boolean isPalindrome(String string) {
+    int i = 0;
+    int j = string.length() - 1;
+    while (i < j) {
+        if (string.charAt(i) != string.charAt(j)) {
+            return false;
+        }
+        i++;
+        j--;
+    }
+    return true;
+}

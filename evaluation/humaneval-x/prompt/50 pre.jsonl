@@ -1,0 +1,13 @@
+/**
+ * Returns an encoded string by shifting every character by 5 in the alphabet.
+ *
+ * @param s The input string to encode.
+ * @return The encoded string.
+ */
+ public String encodeShift(String s) {
+    StringBuilder sb = new StringBuilder();
+    for (char ch : s.toCharArray()) {
+        sb.append((char) ('a' + ((ch + 5 - 'a') % 26)));
+    }
+    return sb.toString();
+}

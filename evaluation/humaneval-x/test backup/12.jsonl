@@ -1,0 +1,10 @@
+main() {
+    let correct = ArrayList<Bool>(
+            longest(ArrayList<String>()).isEmpty(),
+            (longest(ArrayList<String>("x", "y", "z")).getOrThrow(), "x"),
+            (longest(ArrayList<String>("x", "yyy", "zzzz", "www", "kkkk", "abc")).getOrThrow(0), "zzzz")
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

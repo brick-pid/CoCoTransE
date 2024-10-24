@@ -1,0 +1,7 @@
+/**
+ * You'll be given a string of words, and your task is to count the number of "boredoms".
+ * A "boredom" is a sentence that starts with the word "I". Sentences are delimited by '.', '?' or '!'.
+ * 
+ * @param S The string of words to analyze for "boredoms".
+ * @return The count of sentences (boredoms) that start with the word "I".
+ */

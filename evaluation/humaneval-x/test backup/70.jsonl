@@ -1,0 +1,16 @@
+main() {
+    let correct = ArrayList<Bool>(
+            strangeSortList(ArrayList<Int32>(1, 2, 3, 4)) == (ArrayList<Int32>(1, 4, 2, 3)),
+            strangeSortList(ArrayList<Int32>(5, 6, 7, 8, 9)) == (ArrayList<Int32>(5, 9, 6, 8, 7)),
+            strangeSortList(ArrayList<Int32>(1, 2, 3, 4, 5)) == (ArrayList<Int32>(1, 5, 2, 4, 3)),
+            strangeSortList(ArrayList<Int32>(5, 6, 7, 8, 9, 1)) == (ArrayList<Int32>(1, 9, 5, 8, 6, 7)),
+            strangeSortList(ArrayList<Int32>(5, 5, 5, 5)) == (ArrayList<Int32>(5, 5, 5, 5)),
+            strangeSortList(ArrayList<Int32>()) == (ArrayList<Int32>()),
+            strangeSortList(ArrayList<Int32>(1, 2, 3, 4, 5, 6, 7, 8)) == (ArrayList<Int32>(1, 8, 2, 7, 3, 6, 4, 5)),
+            strangeSortList(ArrayList<Int32>(0, 2, 2, 2, 5, 5, -5, -5)) == (ArrayList<Int32>(-5, 5, -5, 5, 0, 2, 2, 2)),
+            strangeSortList(new ArrayList<>(List.of(111111)) == (ArrayList<Int32>(111111))
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

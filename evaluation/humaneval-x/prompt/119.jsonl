@@ -1,0 +1,8 @@
+/**
+ * Given a list of two strings, both strings consist of open parentheses "(" or close parentheses ")" only.
+ * Check if it is possible to concatenate the two strings in some order such that the resulting string is balanced
+ * (all parentheses are matched).
+ * 
+ * @param lst The list containing two strings of parentheses.
+ * @return "Yes" if it's possible to concatenate the strings to form a balanced string, otherwise "No".
+ */

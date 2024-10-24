@@ -1,0 +1,29 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            isSimplePower(1, 4),
+            isSimplePower(2, 2),
+            isSimplePower(8, 2),
+            !isSimplePower(3, 2),
+            !isSimplePower(3, 1),
+            !isSimplePower(5, 3),
+            isSimplePower(16, 2),
+            !isSimplePower(143214, 16),
+            isSimplePower(4, 2),
+            isSimplePower(9, 3),
+            isSimplePower(16, 4),
+            !isSimplePower(24, 2),
+            !isSimplePower(128, 4),
+            !isSimplePower(12, 6),
+            isSimplePower(1, 1),
+            isSimplePower(1, 12)
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

@@ -1,0 +1,12 @@
+main() {
+    let correct = ArrayList<Bool>(
+            moveOneBall(ArrayList<Int32>(3, 4, 5, 1, 2)) == true,
+            moveOneBall(ArrayList<Int32>(3, 5, 10, 1, 2)) == true,
+            moveOneBall(ArrayList<Int32>(4, 3, 1, 2)) == false,
+            moveOneBall(ArrayList<Int32>(3, 5, 4, 1, 2)) == false,
+            moveOneBall(ArrayList<Int32>()) == true
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

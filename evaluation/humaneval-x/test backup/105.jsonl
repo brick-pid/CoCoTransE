@@ -1,0 +1,12 @@
+main() {
+    let correct = ArrayList<Bool>(
+            byLength(ArrayList<Int32>(2, 1, 1, 4, 5, 8, 2, 3))==ArrayList<String>("Eight", "Five", "Four", "Three", "Two", "Two", "One", "One" ),
+            byLength(ArrayList<Int32>())==ArrayList<String>(),
+            byLength(ArrayList<Int32>(1, -1, 55))==ArrayList<String>("One" ),
+            byLength(ArrayList<Int32>(1, -1, 3, 2))==ArrayList<String>("Three", "Two", "One" ),
+            byLength(ArrayList<Int32>(9, 4, 8))==ArrayList<String>("Nine", "Eight", "Four" )
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

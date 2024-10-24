@@ -1,0 +1,9 @@
+/**
+ * Input to this function is a string containing multiple groups of nested parentheses.
+ * Your goal is to separate those groups into separate strings and return the list of those.
+ * Separate groups are balanced (each open brace is properly closed) and not nested within each other.
+ * Ignore any spaces in the input string.
+ *
+ * @param paren_string The string containing multiple groups of nested parentheses.
+ * @return The list of separated groups of parentheses as strings.
+ */

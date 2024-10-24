@@ -1,0 +1,6 @@
+/**
+ * Return a list with elements incremented by 1.
+ *
+ * @param l The list of integers.
+ * @return The list with elements incremented by 1.
+ */

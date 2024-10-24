@@ -1,0 +1,21 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            encrypt("hi") == "lm",
+            encrypt("asdfghjkl") == "ewhjklnop",
+            encrypt("gf") == "kj",
+            encrypt("et") == "ix",
+            encrypt("faewfawefaewg") == "jeiajeaijeiak",
+            encrypt("hellomyfriend") == "lippsqcjvmirh",
+            encrypt("dxzdlmnilfuhmilufhlihufnmlimnufhlimnufhfucufh") == "hbdhpqrmpjylqmpyjlpmlyjrqpmqryjlpmqryjljygyjl",
+            encrypt("a") == "e"
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

@@ -1,0 +1,7 @@
+/**
+ * Filter an input list of strings only for ones that contain the given substring.
+ *
+ * @param strings   The list of strings to filter.
+ * @param substring The substring to search for in the strings.
+ * @return The filtered list of strings containing the given substring.
+ */

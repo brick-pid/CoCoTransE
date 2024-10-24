@@ -1,0 +1,8 @@
+/**
+ * Compares two values (integers, floats, or strings representing real numbers) and returns the larger variable in its given variable type.
+ * Returns None if the values are equal.
+ * 
+ * @param a The first value (integer, float, or string).
+ * @param b The second value (integer, float, or string).
+ * @return An Optional containing the larger variable of the given type, or Optional.empty() if the values are equal.
+ */

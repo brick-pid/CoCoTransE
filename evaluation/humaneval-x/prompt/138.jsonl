@@ -1,0 +1,6 @@
+/**
+ * Determines whether the given number n can be written as the sum of exactly 4 positive even numbers.
+ * 
+ * @param n The number to evaluate.
+ * @return true if n can be expressed as the sum of exactly 4 positive even numbers; otherwise, false.
+ */

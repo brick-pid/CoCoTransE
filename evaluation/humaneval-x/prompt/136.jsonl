@@ -1,0 +1,8 @@
+/**
+ * Returns a tuple (a, b), where 'a' is the largest of negative integers and 'b' is the smallest of positive integers in a list.
+ * If there are no negative or positive integers, returns them as None.
+ * 
+ * @param lst The list of integers.
+ * @return A list containing two Optionals: the first Optional containing the largest negative integer (or empty if none), 
+ *         and the second Optional containing the smallest positive integer (or empty if none).
+ */

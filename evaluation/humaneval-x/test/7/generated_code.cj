@@ -1,0 +1,17 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            filterBySubstring(ArrayList<String>(), "john") == (ArrayList<String>()),
+            filterBySubstring(ArrayList<String>("xxx", "asd", "xxy", "john doe", "xxxAAA", "xxx"), "xxx") == (ArrayList<String>("xxx", "xxxAAA", "xxx")),
+            filterBySubstring(ArrayList<String>("xxx", "asd", "aaaxxy", "john doe", "xxxAAA", "xxx"), "xx") == (ArrayList<String>("xxx", "aaaxxy", "xxxAAA", "xxx")),
+            filterBySubstring(ArrayList<String>("grunt", "trumpet", "prune", "gruesome"), "run") == (ArrayList<String>("grunt", "prune"))
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

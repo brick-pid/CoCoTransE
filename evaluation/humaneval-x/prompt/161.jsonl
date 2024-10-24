@@ -1,0 +1,8 @@
+/**
+ * Modifies the string based on the following rules:
+ * - If a character is a letter, reverse its case (lowercase to uppercase or vice versa).
+ * - If the string contains no letters, reverse the entire string.
+ * 
+ * @param s The input string to be processed.
+ * @return The modified string based on the specified rules.
+ */

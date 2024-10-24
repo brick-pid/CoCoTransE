@@ -1,0 +1,8 @@
+/**
+ * You have been tasked to write a function that receives a hexadecimal number as a string
+ * and counts the number of hexadecimal digits that are primes.
+ * Prime numbers in hexadecimal are: 2, 3, 5, 7, B, D.
+ *
+ * @param num The hexadecimal number as a string.
+ * @return The number of hexadecimal digits that are primes.
+ */

@@ -1,0 +1,9 @@
+/**
+ * Modifies the entries in a list of integers based on their index:
+ * - Squares the integer entry if its index is a multiple of 3.
+ * - Cubes the integer entry if its index is a multiple of 4 and not a multiple of 3.
+ * Entries at other indexes remain unchanged.
+ * 
+ * @param lst The list of integers to be modified.
+ * @return The sum of all entries in the list after modification.
+ */

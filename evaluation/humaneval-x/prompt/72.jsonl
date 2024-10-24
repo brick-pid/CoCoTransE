@@ -1,0 +1,9 @@
+/**
+ * This function determines if an object will fly based on its balance and weight.
+ * The object will fly if it's balanced (a palindromic list) and the sum of its elements
+ * is less than or equal to the maximum possible weight.
+ *
+ * @param q The list representing the object.
+ * @param w The maximum possible weight.
+ * @return True if the object will fly, False otherwise.
+ */

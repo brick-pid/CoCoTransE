@@ -1,0 +1,6 @@
+/**
+ * Return only positive numbers in the list.
+ *
+ * @param l The list of integers.
+ * @return The list containing only positive numbers.
+ */

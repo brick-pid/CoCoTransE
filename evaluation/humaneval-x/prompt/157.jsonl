@@ -1,0 +1,8 @@
+/**
+ * Determines if the three sides of a triangle form a right-angled triangle.
+ * 
+ * @param a The length of side a.
+ * @param b The length of side b.
+ * @param c The length of side c.
+ * @return true if the three sides form a right-angled triangle; otherwise, false.
+ */

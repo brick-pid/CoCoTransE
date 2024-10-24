@@ -1,0 +1,16 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            (stringXor("111000", "101010") == "010010"),
+            (stringXor("1", "1") == "0"),
+            (stringXor("0101", "0000") == "0101")
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

@@ -1,0 +1,6 @@
+/**
+ * Filter given list of any values only for integers.
+ *
+ * @param values The list of values to filter.
+ * @return The list containing only the integers from the input list.
+ */

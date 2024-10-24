@@ -1,0 +1,7 @@
+/**
+ * pairsSumToZero takes a list of integers as input. It returns true if there are two distinct elements
+ * in the list that sum to zero, and false otherwise.
+ *
+ * @param l The list of integers.
+ * @return True if there are two distinct elements that sum to zero, false otherwise.
+ */

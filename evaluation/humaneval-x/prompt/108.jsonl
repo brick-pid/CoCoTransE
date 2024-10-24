@@ -1,0 +1,8 @@
+/**
+ * Write a function countNums which takes an array of integers and returns the number of elements
+ * which have a sum of digits greater than 0. If a number is negative, then its first signed digit will be negative:
+ * e.g., -123 has signed digits -1, 2, and 3.
+ * 
+ * @param arr The list of integers to process.
+ * @return The number of elements in the list whose sum of digits is greater than 0.
+ */

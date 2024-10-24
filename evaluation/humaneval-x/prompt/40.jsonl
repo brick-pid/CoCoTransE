@@ -1,0 +1,7 @@
+/**
+ * triplesSumToZero takes a list of integers as input. It returns true if there are three distinct elements
+ * in the list that sum to zero, and false otherwise.
+ *
+ * @param l The list of integers.
+ * @return True if there are three distinct elements that sum to zero, false otherwise.
+ */

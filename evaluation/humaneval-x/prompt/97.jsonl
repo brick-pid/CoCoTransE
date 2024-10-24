@@ -1,0 +1,7 @@
+/**
+ * Complete the function that takes two integers and returns the product of their unit digits.
+ * 
+ * @param a The first integer.
+ * @param b The second integer.
+ * @return The product of the unit digits of the two integers.
+ */

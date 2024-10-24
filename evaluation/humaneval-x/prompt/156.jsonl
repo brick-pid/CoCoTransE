@@ -1,0 +1,6 @@
+/**
+ * Converts a positive integer to its Roman numeral equivalent as a lowercase string.
+ * 
+ * @param number The positive integer to convert (1 <= num <= 1000).
+ * @return The Roman numeral representation of the input number in lowercase.
+ */

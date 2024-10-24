@@ -1,0 +1,23 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            xOrY(7, 34, 12) == 34,
+            xOrY(15, 8, 5) == 5,
+            xOrY(3, 33, 5212) == 33,
+            xOrY(1259, 3, 52) == 3,
+            xOrY(7919, -1, 12) == -1,
+            xOrY(3609, 1245, 583) == 583,
+            xOrY(91, 56, 129) == 129,
+            xOrY(6, 34, 1234) == 1234,
+            xOrY(1, 2, 0) == 0,
+            xOrY(2, 2, 0) == 2
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

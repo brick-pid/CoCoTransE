@@ -1,0 +1,9 @@
+/**
+ * Given a string representing the total number of oranges and apples in a basket,
+ * and an integer representing the total number of fruits in the basket, this function
+ * returns the number of mango fruits in the basket.
+ *
+ * @param s The string representing the number of oranges and apples.
+ * @param n The total number of fruits in the basket.
+ * @return The number of mango fruits in the basket.
+ */

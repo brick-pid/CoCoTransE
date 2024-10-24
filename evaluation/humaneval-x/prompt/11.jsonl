@@ -1,0 +1,8 @@
+/**
+ * Input are two strings a and b consisting only of 1s and 0s.
+ * Perform binary XOR on these inputs and return the result also as a string.
+ *
+ * @param a The first binary string.
+ * @param b The second binary string.
+ * @return The result of binary XOR operation on the input strings as a string.
+ */

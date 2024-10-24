@@ -1,0 +1,7 @@
+/**
+ * Given a word, find the closest vowel that stands between two consonants from the right side of the word (case-sensitive).
+ * Vowels at the beginning and ending of the word do not count.
+ * 
+ * @param word The input word containing English letters only.
+ * @return The closest vowel that meets the specified condition, or an empty string if none is found.
+ */

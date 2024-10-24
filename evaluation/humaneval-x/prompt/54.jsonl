@@ -1,0 +1,7 @@
+/**
+ * Check if two words have the same characters.
+ *
+ * @param s0 The first word.
+ * @param s1 The second word.
+ * @return True if the words have the same characters, false otherwise.
+ */

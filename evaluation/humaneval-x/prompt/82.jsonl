@@ -1,0 +1,6 @@
+/**
+* Checks if the length of a string is a prime number.
+* 
+* @param string The input string.
+* @return true if the length is a prime number, false otherwise.
+*/

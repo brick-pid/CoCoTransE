@@ -1,0 +1,20 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            wordsInSentence("This is a test") == "is",
+            wordsInSentence("lets go for swimming") == "go for",
+            wordsInSentence("there is no place available here") == "there is no place",
+            wordsInSentence("Hi I am Hussein") == "Hi am Hussein",
+            wordsInSentence("go for it") == "go for it",
+            wordsInSentence("here") == "",
+            wordsInSentence("here is") == "is"
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

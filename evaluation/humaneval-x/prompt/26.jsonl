@@ -1,0 +1,7 @@
+/**
+ * From a list of integers, remove all elements that occur more than once.
+ * Keep the order of elements left the same as in the input.
+ *
+ * @param numbers The list of integers.
+ * @return The list of integers with duplicates removed.
+ */

@@ -1,0 +1,7 @@
+/**
+ * Checks if the second word or any of its rotations is a substring in the first word.
+ * 
+ * @param a The first word.
+ * @param b The second word.
+ * @return true if the second word or any of its rotations is a substring of the first word; otherwise, false.
+ */

@@ -1,0 +1,14 @@
+main() {
+    let correct = ArrayList<Bool>(
+            (removeVowels("") == ""),
+            (removeVowels("abcdefghijklm") == "bcdfghjklm"),
+            (removeVowels("fedcba") == "fdcb"),
+            (removeVowels("eeeee") == ""),
+            (removeVowels("acBAA") == "cB"),
+            (removeVowels("EcBOO") == "cB"),
+            (removeVowels("ybcd") == "ybcd")
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

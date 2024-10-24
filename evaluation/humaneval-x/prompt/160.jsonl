@@ -1,0 +1,8 @@
+/**
+ * Builds and evaluates an algebraic expression using the provided list of operators and operands.
+ * The operators are applied sequentially between the operands to form the expression.
+ * 
+ * @param operator The list of basic algebra operations (e.g., "+", "*", "-", "/", "**").
+ * @param operand The list of integers used in the algebraic expression.
+ * @return The result of evaluating the algebraic expression.
+ */

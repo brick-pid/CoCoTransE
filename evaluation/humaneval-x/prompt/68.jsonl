@@ -1,0 +1,11 @@
+/**
+ * Given an array representing a branch of a tree that has non-negative integer nodes,
+ * this function plucks one of the nodes and returns it. The plucked node should be
+ * the node with the smallest even value. If multiple nodes with the same smallest
+ * even value are found, it returns the node with the smallest index. The plucked
+ * node is returned in a list [smallest_value, its_index]. If there are no even
+ * values or the given array is empty, it returns an empty list.
+ *
+ * @param arr The array representing the branch of the tree.
+ * @return The plucked node in a list [smallest_value, its_index].
+ */

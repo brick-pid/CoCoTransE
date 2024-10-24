@@ -1,0 +1,13 @@
+main() {
+    let correct = ArrayList<Bool>(
+            belowThreshold(ArrayList<Int32>(1, 2, 4, 10), 100),
+            !belowThreshold(ArrayList<Int32>(1, 20, 4, 10), 5),
+            belowThreshold(ArrayList<Int32>(1, 20, 4, 10), 21),
+            belowThreshold(ArrayList<Int32>(1, 20, 4, 10), 22),
+            belowThreshold(ArrayList<Int32>(1, 8, 4, 10), 11),
+            !belowThreshold(ArrayList<Int32>(1, 8, 4, 10), 10)
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

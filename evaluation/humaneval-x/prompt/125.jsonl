@@ -1,0 +1,10 @@
+/**
+ * Given a string of words, perform the following tasks:
+ * - If the string contains whitespace, split the words on whitespace and return them in a list.
+ * - If the string contains commas but no whitespace, split the words on commas and return them in a list.
+ * - If the string contains neither whitespace nor commas, count the number of lowercase letters
+ *   with odd order in the alphabet ('a' = 0, 'b' = 1, ..., 'z' = 25) and return the count.
+ * 
+ * @param txt The input string containing words.
+ * @return A list of words split based on whitespace or commas, or the count of odd-order lowercase letters.
+ */

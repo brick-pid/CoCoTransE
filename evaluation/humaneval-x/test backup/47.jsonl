@@ -1,0 +1,11 @@
+main() {
+    let correct = ArrayList<Bool>(
+            median(ArrayList<Int32>(3, 1, 2, 4, 5)) == 3,
+            median(ArrayList<Int32>(-10, 4, 6, 1000, 10, 20)) == 8.0,
+            median(ArrayList<Int32>(5)) == 5,
+            median(ArrayList<Int32>(6, 5)) == 5.5
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}

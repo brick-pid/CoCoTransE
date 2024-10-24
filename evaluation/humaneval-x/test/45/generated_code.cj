@@ -1,0 +1,16 @@
+main() {
+    try{
+    let correct = ArrayList<Bool>(
+            triangleArea(5, 3) == 7.5,
+            triangleArea(2, 2) == 2.0,
+            triangleArea(10, 8) == 40.0
+    );
+if (correct.contains(false)) {
+                print(correct)
+        }
+    }
+    catch(e: Exception)
+    {
+        print("false")
+    }
+}

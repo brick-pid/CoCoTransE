@@ -1,0 +1,18 @@
+var letters = "abcdefghijklmnopqrstuvwxyz".toArray();
+let rand = Random(42);
+func String random_string(length : Int32) {
+    var sb = StringBuilder();
+    for (i in 0..length) {
+        sb.append(letters[rand.nextInt32(26)]);
+    }
+    return sb.toString();
+}
+main() {
+    for (i in 0..100) {
+        var str = random_string(rand.nextInt32(10) + 10);
+        var encode_str = encodeCyclic(str);
+        if (!decodeCyclic(encode_str)==(str)) {
+            throw new AssertionError();
+        }
+    }
+}

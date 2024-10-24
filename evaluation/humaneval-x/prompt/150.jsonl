@@ -1,0 +1,8 @@
+/**
+ * Returns the value of x if n is a prime number, otherwise returns the value of y.
+ * 
+ * @param n The number to check if it's prime.
+ * @param x The value to return if n is prime.
+ * @param y The value to return if n is not prime.
+ * @return The value of x if n is prime; otherwise, the value of y.
+ */

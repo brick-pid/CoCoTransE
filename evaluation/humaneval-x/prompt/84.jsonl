@@ -1,0 +1,6 @@
+/**
+ * Given a positive integer N, calculates the sum of its digits in binary representation.
+ * 
+ * @param N The positive integer.
+ * @return A string representing the sum of digits in binary.
+ */

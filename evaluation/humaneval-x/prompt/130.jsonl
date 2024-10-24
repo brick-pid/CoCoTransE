@@ -1,0 +1,6 @@
+/**
+ * Computes the first n + 1 numbers of the Tribonacci sequence.
+ * 
+ * @param n A non-negative integer specifying the number of sequence elements to generate.
+ * @return A list containing the first n + 1 numbers of the Tribonacci sequence.
+ */

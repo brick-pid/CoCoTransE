@@ -1,0 +1,20 @@
+main() {
+    let correct = ArrayList<Bool>(
+            !isPrime(6),
+            isPrime(101),
+            isPrime(11),
+            isPrime(13441),
+            isPrime(61),
+            !isPrime(4),
+            !isPrime(1),
+            isPrime(5),
+            isPrime(11),
+            isPrime(17),
+            !isPrime(5 * 17),
+            !isPrime(11 * 7),
+            !isPrime(13441 * 19)
+    );
+    if (correct.contains(false)) {
+        throw new AssertionError();
+    }
+}
