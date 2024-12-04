@@ -4,7 +4,7 @@
 ![OptCodeTrans](./assets/pipeline.png)
 
 ## Dataset Access
-We have open-sourced both our Cangjie([仓颉](https://developer.huawei.com/consumer/cn/doc/cangjie-guides-V5/cj-wp-abstract-V5)) monolingual dataset and the Cangjie-Java parallel corpus. These datasets can be found in the `data` directory. All processed data will be released in the near future.
+We have open-sourced both our Cangjie([仓颉](https://cangjie-lang.cn/en)) monolingual dataset and the Cangjie-Java parallel corpus. These datasets can be found in the `data` directory. All processed data will be released in the near future.
 
 ## Training
 Model training is divided into two phases: continuous pretraining and instruction fine-tuning. 
