@@ -28,3 +28,4 @@ We evaluate translation results using the [BLEU](https://aclanthology.org/P02-10
     {"src": "...", "pred": "..."}
     {"src": "...", "pred": "..."}
     ```
+2. We also privide a detailed handbook on how to execute the test-based evaluation for Cangjie in [English](https://eslroa7djx.feishu.cn/docx/LxXVdqMdyoWb9jxCSsvceHMQn1e?from=from_copylink) and [Chinese](https://m0k9pobp4ss.feishu.cn/docx/ZGuZd13Yio926axldEccDU9InKe) on using the evaluation script in the `bash-test` folder.
